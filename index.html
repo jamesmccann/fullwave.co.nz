@@ -112,7 +112,7 @@
                 <p class="quicksand-500 text-xl text-gray-600 max-w-3xl mx-auto">Building a new home or need to get your hot water going again, give us a call and let's have a chat.</p>
             </div>
 
-            <div class="grid md:grid-cols-2 gap-12">
+            <div class="grid md:grid-cols-2">
 							<div class="space-y-8">
 								<div class="flex items-start space-x-4">
 										<div class="flex-shrink-0 mt-1">
@@ -147,9 +147,8 @@
 						</div>
 							<div>
 									<div class="bg-blue-50 rounded-2xl p-6">
-										<div class="flex items-center space-x-3 mb-4">
-												<i data-lucide="award" class="w-6 h-6 text-blue-600"></i>
-												<h4 class="quicksand-700 text-gray-800 text-lg">Professional Qualifications</h4>
+										<div class="flex mb-4">
+											<h4 class="quicksand-700 text-gray-800 text-lg">Professional Qualifications</h4>
 										</div>
 										<ul class="space-y-3 text-gray-700">
 												<li class="flex items-center space-x-3">
@@ -220,6 +219,8 @@
     </footer>
 
     <script>
+				lucide.createIcons();
+
         // Smooth scrolling for navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
@@ -233,9 +234,7 @@
                 }
             });
         });
-    </script>
 
-		<script>
         // Rotating logo with scroll effects
         const logo = document.getElementById('rotating-logo');
         
