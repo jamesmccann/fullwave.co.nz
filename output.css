@@ -221,6 +221,9 @@
   .bottom-\[-16rem\] {
     bottom: -16rem;
   }
+  .bottom-\[-24rem\] {
+    bottom: -24rem;
+  }
   .z-10 {
     z-index: 10;
   }
@@ -616,6 +619,11 @@
         margin-inline-start: calc(calc(var(--spacing) * 4) * var(--tw-space-x-reverse));
         margin-inline-end: calc(calc(var(--spacing) * 4) * calc(1 - var(--tw-space-x-reverse)));
       }
+    }
+  }
+  .md\:bottom-\[-16rem\] {
+    @media (width >= 48rem) {
+      bottom: -16rem;
     }
   }
   .md\:order-1 {
