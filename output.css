@@ -311,6 +311,9 @@
   .flex-grow {
     flex-grow: 1;
   }
+  .origin-center {
+    transform-origin: center;
+  }
   .scale-150 {
     --tw-scale-x: 150%;
     --tw-scale-y: 150%;
